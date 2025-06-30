@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Doodhvale Automation Suite" verbose="1" parallel="false">
+    <test name="Login Flow Test">
+        <classes>
+            <class name="tests.LoginFlowTest"/>
+        </classes>
+    </test>
+    <test name="LoginLogout Test">
+        <classes>
+            <class name="tests.LoginLogoutFlowTest"/>
+        </classes>
+    </test>
+</suite>
