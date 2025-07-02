@@ -21,7 +21,7 @@ public class LoginLogoutFlowTest {
     private WebDriverWait wait;
 
     @BeforeClass
-    public void setup() throws MalformedURLException {
+    public void setup() {
         DriverManager.initializeDriver();
         driver = (AndroidDriver) DriverManager.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
