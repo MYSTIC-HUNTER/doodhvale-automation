@@ -16,20 +16,21 @@
   </properties>
 
   <dependencies>
-    <!-- ✅ Appium Java Client (updated) -->
+    <!-- ✅ Appium Java Client (Stable Version) -->
     <dependency>
       <groupId>io.appium</groupId>
       <artifactId>java-client</artifactId>
       <version>9.5.0</version>
     </dependency>
 
+    <!-- ✅ Selenium Java (Stable Version) -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>4.8.3</version>
     </dependency>
 
-    <!-- ✅ TestNG (updated) -->
+    <!-- ✅ TestNG -->
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
