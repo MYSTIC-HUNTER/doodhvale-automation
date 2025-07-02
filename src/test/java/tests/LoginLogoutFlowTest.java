@@ -44,7 +44,7 @@ public class LoginLogoutFlowTest {
             if (getOtpBtn != null) {
                 getOtpBtn.click();
             } else {
-                throw new RuntimeException("'Get OTP' button was not found on the screen.");
+                throw new RuntimeException("❌ 'Get OTP' button was not found on the screen.");
             }
 
         } catch (Exception e) {
