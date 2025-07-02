@@ -10,8 +10,6 @@ import org.testng.annotations.*;
 import utils.DriverManager;
 import utils.ElementUtil;
 import utils.ScreenshotUtil;
-
-import java.net.MalformedURLException;
 import java.time.Duration;
 import java.util.List;
 
